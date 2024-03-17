@@ -10,7 +10,7 @@ export default function Audio(props) {
     return (
         <View style={styles.container}>
             <ZegoUIKitPrebuiltCall
-                appID={Your_appI}
+                appID={Your_appId}
                 appSign={"your_app_sign"}
                 userID={`user_${userId}`} // userID can be something like a phone number or the user id on your own user system. 
                 userName={"user1"}
